@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Cinzel';
+	src : url('../Police/Cinzel-Regular.otf');
+}
+
+body{
+	font-family: 'Cinzel';
+	background-color: #6FA8DC;
+	text-align: center;
+}
+
+#connexion{
+    background-color: white;
+    border-radius: 3%;
+	width: 50%;
+	margin-left: 25%;
+}

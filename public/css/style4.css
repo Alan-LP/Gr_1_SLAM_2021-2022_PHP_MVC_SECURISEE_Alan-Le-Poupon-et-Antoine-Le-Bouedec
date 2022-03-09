@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Cinzel';
+	src : url('../Police/Cinzel-Regular.otf');
+}
+
+body{
+	font-family: 'Cinzel';
+	background-color: #6FA8DC;
+}
+
+img{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+#titre{
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	margin: -8px;
+	margin-top: 0%;
+	padding: 1%;
+}
+
+#ficheEnCours{
+	min-width: 600px;
+    width: 70%;
+}
+
+section{
+	background-color: white;
+    border-radius: 3%;
+	padding: 1%;
+}
+
+h2, h3{
+    text-align: center;
+    text-decoration: underline; 
+}
+
+.tableau-style{
+    border-collapse: collapse;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    margin: auto;
+    border: 2px solid midnightblue;
+}
+
+th, td{
+    padding: 15px 20px;
+	border: 1px solid #ddd;
+}
+
+thead tr{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+.croix{
+    width: 40px;
+    height: auto;
+}
+
+.prix{
+    text-align: center;
+}
+
+#prixTotal{
+	text-align: right;
+	text-decoration: underline;
+	padding-right: 5%;
+}
+
+#fraisForfait{
+	min-width: 300px;
+    width: 23%;
+	text-align: center;
+	position: absolute;
+	margin-left: 72.5%;
+}
+
+#positionBlock{
+	display: flex;
+}
+
+#positionBouton{
+	display: flex;
+	justify-content: center;
+}
+
+#fraisHorsForfait {
+	min-width: 300px;
+    width: 23%;
+    text-align: center;
+	position: absolute;
+	margin-left: 72.5%;
+	top: 500px;
+}

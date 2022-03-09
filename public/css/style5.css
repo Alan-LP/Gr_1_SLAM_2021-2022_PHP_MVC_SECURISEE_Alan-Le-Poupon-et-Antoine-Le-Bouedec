@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'Cinzel';
+	src : url('../Police/Cinzel-Regular.otf');
+}
+
+body{
+	font-family: 'Cinzel';
+	background-color: #6FA8DC;
+}
+
+img{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+#titre{
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	margin: -8px;
+	margin-top: 0%;
+	padding: 1%;
+}
+
+#tableau{
+    background-color: white;
+    border-radius: 3%;
+    width: 1000px;
+	margin: auto;
+	padding-bottom: 3%;
+	padding-top: 1%;
+}
+
+#tableau-style{
+    border-collapse: collapse;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    margin: auto;
+    border: 2px solid midnightblue;
+}
+
+th, td{
+    padding: 15px 20px;
+	border: 1px solid #ddd;
+}
+
+thead tr{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+.croix{
+    width: 40px;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline; 
+}

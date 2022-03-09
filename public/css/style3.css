@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'Cinzel';
+	src : url('../Police/Cinzel-Regular.otf');
+}
+
+body{
+	font-family: 'Cinzel';
+	background-color: #6FA8DC;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+.titre{
+	text-align: center;
+}
+
+.lien{
+	padding-left: 5%;
+}
+
+#titreBox{
+	background-color: #F6B26B;
+	height: 100px;
+	padding-top: 1%;
+	margin: -8px;
+}
+
+#deco{
+    position: absolute;
+    right: 5%;
+    top: 30px;
+}
+
+#fiche{
+    background-color: white;
+	margin-top: 5%;
+	padding-top: 2%;
+    height: 300px;
+	width: 50%;
+	margin-left: 25%;
+    border-radius: 3%;
+}
